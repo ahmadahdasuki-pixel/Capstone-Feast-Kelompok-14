@@ -298,7 +298,87 @@ Pastikan perangkat sudah memiliki:
 | **Laragon** | Menyediakan server MySQL untuk terhubung dan mengelola database |      
 
          
-### 🖼️ Panduan Penggunaan         
+### 🖼️ Panduan Penggunaan     
+#### Tampilan Utama Login
+
+<img width="885" height="394" alt="image" src="https://github.com/user-attachments/assets/1dc7485a-049f-41c8-9125-40212e5a9358" />
+
+Ini adalah Tampilan Utama yaitu Login yang dimana disini pengguna bisa memasukkan Usernam dan Passwwordnya sesuai dengan Data akun mereka yang sudah terdaftar pada program dan database. Saat Login Pengguna tinggal input data diri nya sebagai apa jika Admin akan lansung masuk ke menu Admin dan jika Staff akan masuk ke menu Staff.
+
+
+<img width="932" height="428" alt="image" src="https://github.com/user-attachments/assets/c981d1dc-3439-4b5c-a176-d36f3c2cdcab" />
+
+Jika Pengguna salah memasukkan username ataupun password akan muncul peringatan salah saat input passwordnya.
+
+#### Tampilan Dashboard Admin
+
+<img width="1108" height="586" alt="image" src="https://github.com/user-attachments/assets/412ea4de-2d25-46de-a79a-58292645b65c" />
+
+Ini adalah tampilan dashboard menu admin yang dimana disini dapat di lihat ada card untuk melihat jumlah bahan baku, produk, produksi batch dan transaksi distribusi nya secara real time serta tabel produksi batch terbaru yang sudah di filter dengan warna dan pilihan combo box berdasarkan masing - masing status nya apa.
+
+#### Menu Bahan Baku Admin
+
+<img width="867" height="599" alt="image" src="https://github.com/user-attachments/assets/75b299a8-ad68-4651-9337-fbe40fd42a26" />
+
+Pada Menu Bahan Baku admin ini dapat di lihat admin bisa melakukan untuk menambah bahan baku baru beserta stok nya , lalu admin juga bisa mengubah bahan baku beserta stok nya untuk restok apabila dari staff request untu kebutuhan bahan baku yang kurang buat produksi produk dan terakhir admin bisa melakukan hapus bahan yaitu untuk menonaktifkan bahan baku. Dan ada tabel bahan baku juga untuk melihat daftar bahan baku yang sudah ada beserta jumlah masing masing stoknya yang ada saat ini dan stok minimumnya serta jika stok nya sudah minimum akan di beri tanda warna merah agar admin dapat memudahkan juga untuk mengetahui bahan baku yang perlu segera di restock.
+
+<img width="877" height="599" alt="image" src="https://github.com/user-attachments/assets/36a99b76-fdf0-4f09-9f01-7eff5f62e3f2" />
+
+Ini adalah tampilan apabila bahan baku yang ingin di tambahkan itu data nya sudah ada , maka program akan menampilkan bahwa bahan baku tersebut sudah ada jika tetap ingin menambahkan maka data bahan baku yang duplikat tersebut yang tertambah hanya stok nya bukan data bahan baku nya. Ini juga demi menghindari duplikasi pada data agar tidak berantakan.
+
+#### Menu Produk Admin
+
+<img width="944" height="599" alt="image" src="https://github.com/user-attachments/assets/137bfe09-7ba9-4c22-84b9-979bea000938" />
+
+Selanjutnya ke menu tampilan Produk yang dimana disini admin bisa melakukan tambah produk apabila ada produk baru lalu bisa juga mengubah data produk nya dan terakhir admin bisa melakukan hapus produk untuk menonaktifkan data produk nya, jika status produknya nonaktif maka pada tab produksi batch pun data produk tersebut tidak akan muncul.
+
+<img width="940" height="593" alt="image" src="https://github.com/user-attachments/assets/db8ba41e-f475-4efd-b898-ea515071bc41" />
+
+Jika data produk yang ingin di tambahkan itu sudah ada di database maka proses penambahan produk tersebut pun tidak akan berhasil dan akan di arah kan untuk melakukan update untuk memperbarui data nya, ini juga demi mencegah duplikasi data agar data pada program tidak berantakan.
+
+#### Menu Resep Admin
+
+<img width="868" height="600" alt="image" src="https://github.com/user-attachments/assets/da20324b-d37d-4163-8d17-bd765fd4c48e" />
+
+Pada Menu Resep admin akan mengelola resep dari setiap produk itu bahan dan takaran yang di butuhkan apa saja , mulai dari admin bisa melakukan penambahan resep dari setiap produk yang ada , lalu mengubah takaran dari bahan resep yang ada dan menghapus resep atau menghapus kebutuhan bahan pada daftar resep yang ada pada masing-masing produk. Jika admin sebelumnya menambahkan produk baru maka di tab resep nanti produk tersebut belum memiliki resep , maka admin akan bisa melakukan penambahan resep dan kebutuhan bahan nya serta jumlah takarannya apa saja.
+
+#### Menu Distributor Admin
+
+<img width="954" height="599" alt="image" src="https://github.com/user-attachments/assets/5533d0e7-4950-4a11-96d8-1e0e88d06137" />
+
+Pada Menu Distributor admin akan melakukan pengelolaan terkait data distributornya apa saja untuk menjadi tujuan dari distribusi yang telah di lakukan oleh staff saat kegiatan operasionalnya. Disini admin bisa melakukan penambahan data distributor baru , lalu mengubah data distributornya dan menghapus data distributor untuk menonaktifkan data distributornya.
+
+<img width="955" height="609" alt="image" src="https://github.com/user-attachments/assets/67d5f256-571a-4b54-be6f-1129f37ba25c" />
+
+Jika admin ingin melakukan penambahan data distributor baru lalu data tersebut sudah ada pada program atau database program akan muncul notifikasi data tersebut sudah dan akan di arah kan untuk melakukan ubah data untuk memperbarui nya , guna nya adalah untuk mencegah duplikasi data pada program dan database agar data tidak berantakan juga.
+
+#### Menu Kelola Akun Staff
+
+<img width="1163" height="618" alt="image" src="https://github.com/user-attachments/assets/441ff571-75cd-4a2c-aeb7-83a318fa0b28" />
+
+Selanjutnya ke menu tampilan kelola akun staff yang dimana admin akan mengelola akun staff yang ada dan dapat di lihat pada tampilan admin bisa melakukan penambahan akun staff jika admin ingin melakukan tambah akun staff maka nanti akan berpindah ke tab register akun staff, lalu admin bisa melakukan update data akun staff dan terakhir hapus akun staff untuk menonaktifkan data akun staff tersebut apabila staff tersebut misalnya sudah tidak bekerja di perusahaan tersebut.
+
+#### Register Akun Staff
+
+<img width="503" height="605" alt="image" src="https://github.com/user-attachments/assets/1c21a423-2547-4116-bf9a-434ef1e32916" />
+
+Ini adalah tampilan jika admin ingin menambahkan data akun staff yang baru mulai dari menambahkan nama Lengkap staff , username no telepon dan password baru untuk staff.
+
+
+<img width="1158" height="640" alt="image" src="https://github.com/user-attachments/assets/f8cebc9c-31dd-432b-9ae1-20363303e6ac" />
+
+Jika passwordnya tida mencapai 6 karakter akan muncul validasi notifikasi password akun harus mencapai 6 karakter.
+
+
+
+
+
+
+
+
+
+
+
 
 ---
  
