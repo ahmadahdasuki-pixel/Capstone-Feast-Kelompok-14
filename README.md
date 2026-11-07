@@ -141,10 +141,10 @@ Dua aktor: **Admin** dan **Staff**. Keduanya melakukan *login* sebelum dan *logo
 Rancangan basis data terdiri dari **10 entitas**: `Pengguna`, `Admin`, `Staff`, `Bahan_Baku`, `Produk`, `Detail_Resep`, `Produksi_Batch`, `Distributor`, `Distribusi`, dan `Detail_Distribusi_Batch`.
  
 #### 📌 ERD Logical
-![ERD Logical](img/erd-logical.jpg)
+![ERD Logical](img/erd-logical.png)
  
 #### 📌 ERD Relational
-![ERD Relational](img/erd-relational.jpg)
+![ERD Relational](img/erd-relational.png)
  
 📎 [Klik di sini untuk melihat ERD Lengkap](https://drive.google.com/drive/folders/1mCzmc85rA1FsEleD3EEAYkn8AMJl5ZtO?usp=sharing)
  
