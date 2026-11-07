@@ -88,7 +88,7 @@ Sistem ini dilengkapi dengan:
  
 Dua aktor: **Admin** dan **Staff**. Keduanya melakukan *login* sebelum dan *logout* setelah menggunakan sistem.
  
-![Use Case Diagram](img/usecase.jpg)   
+![Use Case Diagram](img/usecase.png)   
 
 📎 [Klik di sini untuk melihat Use Case Diagram Lengkap](https://drive.google.com/file/d/1IFRrMQOYuadCL68XmWCmXrVNMFcLsWnm/view?usp=sharing)
  
