@@ -370,6 +370,21 @@ Ini adalah tampilan jika admin ingin menambahkan data akun staff yang baru mulai
 
 Jika passwordnya tida mencapai 6 karakter akan muncul validasi notifikasi password akun harus mencapai 6 karakter.
 
+<img width="1158" height="629" alt="image" src="https://github.com/user-attachments/assets/463052c7-c9ba-4420-872c-1db25b943003" />
+
+Jika data akun staff baru yang ingin di tambahkan itu sudah ada namanya di database daftar akun staff maka akun tersebut tidak bisa di tambahkan dalam daftar, gunanya adalah agar duplikasi akun dapat di hindari dan tidak membuat bingung admin sebaga pengelola akun staff.
+
+#### Dashboard Staff
+
+#### Produksi Batch 
+
+#### Pemantauan Stok 
+
+#### Distribusi 
+
+#### Logout
+
+
 
 
 
