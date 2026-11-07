@@ -354,7 +354,8 @@ Jika admin ingin melakukan penambahan data distributor baru lalu data tersebut s
 
 #### Menu Kelola Akun Staff
 
-<img width="1163" height="618" alt="image" src="https://github.com/user-attachments/assets/441ff571-75cd-4a2c-aeb7-83a318fa0b28" />
+<img width="1160" height="617" alt="image" src="https://github.com/user-attachments/assets/0095d52c-2e11-471b-a640-65cf20172c0e" />
+
 
 Selanjutnya ke menu tampilan kelola akun staff yang dimana admin akan mengelola akun staff yang ada dan dapat di lihat pada tampilan admin bisa melakukan penambahan akun staff jika admin ingin melakukan tambah akun staff maka nanti akan berpindah ke tab register akun staff, lalu admin bisa melakukan update data akun staff dan terakhir hapus akun staff untuk menonaktifkan data akun staff tersebut apabila staff tersebut misalnya sudah tidak bekerja di perusahaan tersebut.
 
