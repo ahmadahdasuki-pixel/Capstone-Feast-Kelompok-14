@@ -374,27 +374,48 @@ Jika passwordnya tida mencapai 6 karakter akan muncul validasi notifikasi passwo
 
 Jika data akun staff baru yang ingin di tambahkan itu sudah ada namanya di database daftar akun staff maka akun tersebut tidak bisa di tambahkan dalam daftar, gunanya adalah agar duplikasi akun dapat di hindari dan tidak membuat bingung admin sebaga pengelola akun staff.
 
-#### Dashboard Staff
+#### Dashboard Staff    
 
-#### Produksi Batch 
+<img width="1097" height="548" alt="image" src="https://github.com/user-attachments/assets/3ff8c2be-790c-4fe5-80d2-425fdf05b27f" />
 
-#### Pemantauan Stok 
+Berikut adalah tampilan dashboard milik staff, isi dari dashboard milik staff serupa dengan dashboard milik admin.  
+
+#### Produksi Batch   
+
+<img width="1107" height="592" alt="image" src="https://github.com/user-attachments/assets/2610e194-acbd-4de7-85e5-34570ba186c8" />
+
+Ini adalah tampilan menu produksi batch milik staff, disini staff dapat melakukan produksi terhadap produk yang tersedia, staff perlu memilih produk, jumlah yang ingin di produksi, tanggal produksi dan tanggal kadaluarsa nya, ketika staff sudah mengisi formnya dan memulai produksi maka riwayat produksi akan tertambah kedalam tabel dengan status 'proses', dan staff perlu melakukan finalisasi terhadap status produksi apakah produksi 'berhasil' atau 'gagal'. Selain itu terdapat juga opsi mengecek bahan bahan baku, yaitu staff bisa mengecek apakah bahan baku cukup atau tidak berdasarkan jumlah produk yang ingin dibuat.     
+
+<img width="1104" height="592" alt="image" src="https://github.com/user-attachments/assets/1ad51088-37b9-484b-8277-c7b3cabf8e7d" />
+
+Jika staff mencoba memasukan tanggal kadaluarsa lebih cepat dibanding tanggal produksi, maka sistem akan menolak dan memunculkan pesan error.
+
+#### Pemantauan Stok    
+
+<img width="1017" height="535" alt="image" src="https://github.com/user-attachments/assets/7bfdcaae-50e9-4780-ad5f-13c50648e4f7" />
+
+Berikut adalah tampilan tab Pemantauan Stok, disini staff dapat memantau stok bahan baku apakah masih dibatas aman atau sudah dibawah minimum, dan juga memantau stok batch produksi apakah sudah mendekati tanggal kadaluarsanya, yang ditandai warna merah jika sudah kadaluarsa. Jika produksi batch sudah kadaluarsa maka staff dapat memilih baris produksi yang sudah kadaluarsa dan memilih opsi 'buang stok batch produksi' maka status nya akan berubah menjadi 'dibuang'
+
 
 #### Distribusi 
 
+<img width="1022" height="640" alt="image" src="https://github.com/user-attachments/assets/1668b899-d722-4487-9065-f7420ac08e13" />
+
+Ini adalah tampilan untuk tab Distribusi, bagian ini adalah tempat dimana staff mengurus distribusi dari produksi batch yang ada. Untuk melakukan distribusi staff perlu mengisi form yang ada, yaitu produk, jumlah yang akan dikirim, distributor, dan tanggal distributor, setelah itu memilih tombol simpan distribusi, maka riwayat yang diisi akan masuk ke dalam tabel dengan status 'diproses' dan staff perlu mengubah statusnya berdasarkan kondisi produksi batchnya, apakah sudah dikirim atau sudah selesai dikirim.  
+
+<img width="1023" height="647" alt="image" src="https://github.com/user-attachments/assets/2f8ff5c0-e871-4223-b93b-bb0444a4c890" />
+
+Jika jumlah stok produk yang ada lebih sedikit daripada jumlah yang dikirim maka sistem akan menolak dan menampikan pesan error.
+
 #### Logout
 
+<img width="1021" height="651" alt="image" src="https://github.com/user-attachments/assets/0fb31212-57c8-4600-89e2-d521f46b0ce8" />
 
+Jika memilih tombol 'logout' maka akan muncul konfirmasi apakah yakin ingin keluar.
 
+<img width="864" height="366" alt="image" src="https://github.com/user-attachments/assets/9210b9b8-e4f1-4359-b057-b9999250eaf0" />
 
-
-
-
-
-
-
-
-
+Jika memilih tombol ya maka akan kembali pada halaman login.
 
 ---
  
